@@ -19,6 +19,9 @@ from sympy import *
 init_printing(use_unicode=False, wrap_line=False)
 # (l, r, b, t, n, f) = symbols('l r b t n f')
 (l, r, b, t, n, f) = (0, 1024, 0, 768, -1, 1)
+# (l, r, b, t, n, f) = (-1, +1, -1, +1, +1, -1) identity
+# (w, h) = symbols('w h')
+# (l, r, b, t, n, f) = (0, w, 0, h, +1, -1)
 
 # v = Matrix([x, y, z])
 t_x = -(r + l)/(r - l)
